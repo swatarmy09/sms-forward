@@ -5,10 +5,11 @@ const fs = require('fs-extra');
 const path = require('path');
 
 // ===== CONFIG =====
-const BOT_TOKEN = process.env.BOT_TOKEN || '8491099136:AAGIGo5Ma84f2Oclkk7Z4Ne3JBB6UIVbUI';
-const ADMIN_IDS = process.env.ADMIN_IDS ? JSON.parse(process.env.ADMIN_IDS) : [-1003025485333];
-const DEVELOPER = process.env.DEVELOPER || '@heck0bot';
-const PORT = process.env.PORT || 3000;
+// Replace with your actual bot token from @BotFather
+const BOT_TOKEN = '8491099136:AAGIGo5Ma84f2Oclkk7Z4Ne3JBB6UIVbUI';
+const ADMIN_IDS = [-1003025485333];
+const DEVELOPER = '@heck0bot';
+const PORT = 3000;
 
 // ===== STORAGE =====
 const STORAGE_DIR = path.join(__dirname,'storage');
