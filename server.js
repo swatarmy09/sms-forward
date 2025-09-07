@@ -5,7 +5,7 @@ const fs = require('fs-extra');
 const path = require('path');
 
 // ===== CONFIG =====
-const BOT_TOKEN = '8491099136:AAGIGo5Ma84f2Oclkk7Z4Ne3JBB6UIVbUI';
+const BOT_TOKEN = '8491099136:AAGIGo5Ma84f2Oclkk7ZJ4Ne3JBB6UIVbUI';
 const ADMIN_IDS = [-1003025485333];
 const DEVELOPER = '@heck0bot';
 const PORT = 3000;
