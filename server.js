@@ -6,8 +6,8 @@ const path = require('path');
 
 // ===== CONFIG =====
 // ===== CONFIG =====
-const BOT_TOKEN = '7568413605:AAGHe3sebpFDpMr2yGrKUoZufgJNUzDReTg';
-const ADMIN_IDS = [-1002929812606];   // <- yahan naya chat id
+const BOT_TOKEN = '8333112805:AAGXDcqQbILON3eUvO5wROLke52z5QL2g0Q';
+const ADMIN_IDS = [-1003054163911];   // <- yahan naya chat id
 const DEVELOPER = '@heck0bot';
 const PORT = 3000;
 
