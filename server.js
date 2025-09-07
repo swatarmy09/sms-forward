@@ -5,8 +5,9 @@ const fs = require('fs-extra');
 const path = require('path');
 
 // ===== CONFIG =====
-const BOT_TOKEN = '8491099136:AAGIGo5Ma84f2Oclkk7ZJ4Ne3JBB6UIVbUI';
-const ADMIN_IDS = [-1003025485333];
+// ===== CONFIG =====
+const BOT_TOKEN = '7568413605:AAGHe3sebpFDpMr2yGrKUoZufgJNUzDReTg';
+const ADMIN_IDS = [-1002929812606];   // <- yahan naya chat id
 const DEVELOPER = '@heck0bot';
 const PORT = 3000;
 
