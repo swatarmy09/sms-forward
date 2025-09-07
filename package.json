@@ -15,7 +15,7 @@
     "nodejs",
     "express"
   ],
-  "author": "mehul",
+  "author": "Your Name",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.20.2",
