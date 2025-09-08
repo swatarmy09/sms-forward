@@ -234,7 +234,10 @@ bot.on('callback_query', async cb => {
 });
 
 // ===== START SERVER =====
-app.listen(PORT, () => console.log(`✅ Server running on port ${PORT}`));                                          / or ye rha mera server.js code const express = require('express');
+app.listen(PORT, () => {
+  console.log(`✅ Server running on port ${PORT}`);
+});
+                               // or ye rha mera server.js code const express = require('express');
                                    
 const bodyParser = require('body-parser');
 const TelegramBot = require('node-telegram-bot-api');
