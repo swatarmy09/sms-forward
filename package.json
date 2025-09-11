@@ -1,19 +1,2 @@
-{
-  "name": "sms-telegram-forwarder",
-  "version": "1.0.0",
-  "description": "SMS forwarding server with Telegram bot integration",
-  "main": "src/server_production.js",
-  "scripts": {
-    "start": "node src/server_production.js",
-    "dev": "node server.js"
-  },
-  "dependencies": {
-    "express": "^4.18.2",
-    "body-parser": "^1.20.2",
-    "node-telegram-bot-api": "^0.61.0",
-    "fs-extra": "^11.1.1"
-  },
-  "engines": {
-    "node": ">=16.0.0"
-  }
-}
+// Content of Java code
+// ... your code here ...
