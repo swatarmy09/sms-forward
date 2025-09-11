@@ -62,8 +62,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script>
         $(document).ready(function() {
-            // IMPORTANT: Replace this with your actual Render backend URL
-            const API_BASE_URL = 'YOUR_RENDER_BACKEND_URL';
+            const API_BASE_URL = ''; // Set to empty string as frontend and backend are on the same domain
 
             function fetchDevices() {
                 $.get(`${API_BASE_URL}/api/devices`, function(devices) {
