@@ -1,2 +1,18 @@
-// Content of Java code
-// ... your code here ...
+{
+  "name": "sms-forwarder-backend",
+  "version": "1.0.0",
+  "description": "Backend server for SMS forwarding application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo "Error: no test specified" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "fs-extra": "^11.2.0"
+  }
+}
